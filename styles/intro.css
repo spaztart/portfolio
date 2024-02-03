@@ -1,0 +1,183 @@
+.heroSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 1px solid var(--border-color);
+    background: radial-gradient(52.98% 52.98% at 50% 14.9%, var(--bgradientradial) 0%, var(--bgradientradial) 0.01%, var(--bgprimary-color) 80.21%);
+}
+
+.heroContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 48px;
+    gap: 16px;
+}
+
+.heroContents {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroDisplaytext {
+    color: var(--PrimaryColor);
+    font-size: 3.5vw;
+    font-weight: 200;
+}
+
+.red-overlay {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+
+.snazzybox {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    mix-blend-mode: exclusion;
+
+}
+
+.snazzybox img {
+    width: 100%;
+    height: auto;
+}
+
+.stackcontainer {
+    max-width: 968px;
+    margin: 0;
+    padding: 0;
+}
+
+.promobanner {
+    border-radius: 1.5rem;
+    background: var(--SocialFooterBg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.promotext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.promobanner img {
+    width: 280px;
+}
+
+.stackcontainer ul {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5rem 0 5rem 0;
+    margin: 0;
+    padding-top: 5rem;
+
+}
+
+.stackcontainer li {
+    display: flex;
+    min-width: 20rem;
+    max-width: 26rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex: 1 0 0;
+}
+
+.stackitem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.stackicon {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.stackicon img {
+    width: 100%;
+    padding-top: 3px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1104px) {
+    .heroContainer {
+        flex-direction: column-reverse;
+    }
+
+    .heroContents {
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroDisplaytext {
+        font-size: 40px;
+
+    }
+
+    .snazzybox {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .stackcontainer h2 {
+        text-align: center;
+    }
+
+    .stackcontainer ul {
+        justify-content: center;
+    }
+
+    .heroContainer {
+        padding: 48px;
+    }
+
+    .promobanner {
+        flex-direction: column-reverse;
+        gap: 1rem;
+
+    }
+
+    .promotext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .promobanner img {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .heroSection {
+        height: 100vh;
+    }
+
+    .heroContents {
+        justify-content: flex-start;
+    }
+
+    .promobanner img {
+        width: 150px;
+    }
+}

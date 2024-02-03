@@ -1,0 +1,21 @@
+:root {
+    --bgprimary-color: #fff;
+    --bgsecondary-color: #f7f8ff;
+    --bgradientradial: #DFE8FF;
+    --text-color: #19191a;
+    --text-color2: #222;
+    --border-color: #D9D9D9;
+    --NavItem: #504b59;
+    --NavHover: #efecff;
+    --Disabled: #949494;
+    --PrimaryColor: #0057FF;
+    --ActiveColor: #212a58;
+    --SocialFooterBg: #F5F5FF;
+    --SocialIcon: #8d78ea;
+    --SocialHoverIcon: #ddd7f7;
+    --SecondaryActiveColor: #ded6f4;
+    --DisabledSecondary: #D9D9D9;
+    --logoPrimaryColor: #ff2424;
+    --logoSecondaryColor: #1e00ff;
+    --ScrollThumb: #cbcbcb;
+}

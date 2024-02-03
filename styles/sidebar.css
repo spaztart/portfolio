@@ -1,0 +1,192 @@
+/* Sidebar */
+.sidebar {
+    display: block;
+    position: fixed;
+    background-color: var(--bgprimary-color);
+    border-right: 1px solid var(--border-color);
+    overflow-x: hidden;
+    height: 100%;
+
+}
+
+.sidebarContainer {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 288px;
+}
+
+.nav {
+    margin-top: 72px;
+    overflow: scroll;
+    height: 100%;
+    margin-bottom: 72px;
+    overflow-x: hidden;
+
+    /* Hide horizontal scrollbar */
+}
+
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    list-style-type: none;
+    padding: 0;
+    margin: 32px 24px 32px 24px;
+}
+
+.nav li {
+    align-self: stretch;
+    display: block;
+
+}
+
+.nav li strong {
+    margin-bottom: 4px;
+    display: block;
+    color: var(--text-color2);
+
+}
+
+.nav li a {
+    padding: 0.4375rem 0.5rem 0.4375rem 1.25rem;
+    text-decoration: none;
+    color: var(--NavItem);
+    border-radius: 4px;
+    display: block;
+    animation: slide-back 0.1s reverse;
+
+}
+
+@keyframes slide-back {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.nav li a:hover {
+    animation: bgNavItem 0.2s ease;
+    /* Disable the previous animation on hover */
+    background-color: var(--NavHover);
+    animation: slide-right 0.1s both;
+}
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+
+
+.nav li a:active {
+    background-color: var(--SecondaryActiveColor);
+    color: var(--ActiveColor);
+    font-weight: bold;
+}
+
+
+.socialfooter {
+    background-color: var(--SocialFooterBg);
+    display: flex;
+    height: 72px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.socialfooter a {
+    padding: 8px;
+}
+
+.socialfooter a:hover {
+    background-color: var(--SocialHoverIcon);
+    border-radius: 48px;
+}
+
+.socialicon {
+    content: '';
+    display: block;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialicon svg {
+    fill: var(--SocialIcon);
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .sidebar {
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .sidebarContainer {
+        width: 100%;
+    }
+
+    .sidebar a {
+        padding: 16px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #818181;
+        display: block;
+    }
+
+    .nav {
+        background-color: var(--bgsecondary-color);
+    }
+
+    .nav ul {
+        margin: 40px 24px 40px 24px;
+    }
+
+    .nav li {
+        text-align: center;
+    }
+
+    .nav li strong {
+        text-align: center;
+    }
+
+    .nav li a {
+        animation: none;
+    }
+
+    .nav li a:hover {
+        animation: none;
+    }
+}
+
+
+@media screen and (min-width: 761px) {
+    .sidebar {
+        display: block !important;
+    }
+}
