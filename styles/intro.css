@@ -179,7 +179,6 @@
     }
 
     .stackcontainer li {
-        min-width: 0;
-        max-width: 26rem;
+        min-width: 0rem;
     }
 }
