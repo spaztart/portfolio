@@ -32,15 +32,9 @@
     font-weight: 200;
 }
 
-.red-overlay {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-}
-
 .snazzybox {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     mix-blend-mode: exclusion;
 
