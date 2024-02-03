@@ -177,4 +177,9 @@
     .promobanner img {
         width: 150px;
     }
+
+    .stackcontainer li {
+        min-width: 0;
+        max-width: 26rem;
+    }
 }
