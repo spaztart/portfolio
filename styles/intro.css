@@ -9,11 +9,11 @@
 
 .heroContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     flex-direction: row;
     align-items: center;
-    padding-left: 48px;
+    padding: 48px;
     gap: 16px;
 }
 
@@ -32,17 +32,20 @@
     font-weight: 200;
 }
 
+
 .snazzybox {
     width: 100%;
     height: auto;
-    flex-shrink: 0;
-    mix-blend-mode: exclusion;
+    border-radius: 48px;
 
 }
 
 .snazzybox img {
     width: 100%;
     height: auto;
+    max-height: 600px;
+    max-width: 600px;
+
 }
 
 .stackcontainer {
