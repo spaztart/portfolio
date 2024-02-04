@@ -4,7 +4,7 @@ class HeaderNav extends HTMLElement {
         <header>
         <div class="LogoContainer">
             <div class="menu-icon" onclick="toggleSidebar()">☰</div>
-            <a href="index.html"><div class="logo">bonafide.<strong>io</strong></div></a>
+            <a href="index.html"><div class="logo">Josh.<strong>Carter</strong></div></a>
         </div>
 
         <div class="dropdown">

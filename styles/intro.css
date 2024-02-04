@@ -15,6 +15,7 @@
     align-items: center;
     padding: 48px;
     gap: 16px;
+    max-width: 1104px;
 }
 
 .heroContents {
@@ -34,7 +35,7 @@
 
 
 .snazzybox {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 48px;
 
@@ -81,7 +82,7 @@
     gap: 3rem;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 5rem 0 5rem 0;
+    padding: 5rem 0 2rem 0;
     margin: 0;
     padding-top: 5rem;
 
@@ -115,7 +116,7 @@
 /* Responsive Design */
 @media screen and (max-width: 1104px) {
     .heroContainer {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .heroContents {
@@ -129,10 +130,13 @@
     }
 
     .snazzybox {
-        width: 250px;
-        height: 250px;
-
+        width: 80%;
+        display: flex;
+        justify-content: center;
     }
+
+
+
 
     .stackcontainer h2 {
         text-align: center;
@@ -166,8 +170,15 @@
 }
 
 @media screen and (max-width: 480px) {
+
     .heroSection {
         height: 100vh;
+        align-items: center;
+    }
+
+    .heroSection {
+        height: 100vh;
+        align-items: center;
     }
 
     .heroContents {
@@ -179,6 +190,12 @@
     }
 
     .stackcontainer li {
-        min-width: 10rem;
+        min-width: 14rem;
+    }
+
+    .snazzybox {
+        min-width: 300px;
+        display: flex;
+        justify-content: center;
     }
 }

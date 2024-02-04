@@ -181,7 +181,7 @@ header {
     padding: 64px 48px 64px 48px;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 /* Style for the dropdown container */
