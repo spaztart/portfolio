@@ -184,6 +184,13 @@ header {
     gap: 3rem;
 }
 
+.blogcontainer {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* Style for the dropdown container */
 .dropdown {
     position: relative;
