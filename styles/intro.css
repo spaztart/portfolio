@@ -190,7 +190,7 @@
     }
 
     .stackcontainer li {
-        min-width: 3rem;
+        min-width: 0;
     }
 
     .snazzybox {
