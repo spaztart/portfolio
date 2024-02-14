@@ -113,6 +113,17 @@
     padding-top: 3px;
 }
 
+#bg-wrap {
+    position: absolute;
+}
+
+
+@media screen and (min-width: 1400px) {
+    .heroDisplaytext {
+        font-size: 52px;
+    }
+}
+
 /* Responsive Design */
 @media screen and (max-width: 1104px) {
     .heroContainer {
@@ -134,8 +145,6 @@
         display: flex;
         justify-content: center;
     }
-
-
 
 
     .stackcontainer h2 {
@@ -186,15 +195,15 @@
     }
 
     .promobanner img {
-        width: 150px;
+        width: 100px;
     }
 
     .stackcontainer li {
-        min-width: 10rem;
+        min-width: 12rem;
     }
 
     .snazzybox {
-        min-width: 300px;
+
         display: flex;
         justify-content: center;
     }

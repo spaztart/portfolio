@@ -32,7 +32,7 @@ class SidebarNav extends HTMLElement {
         </div>
 
         <div class="socialfooter">
-            <a href="#">
+            <a href="https://dribbble.com/carter29" target="_blank" rel="noopener noreferrer">
                 <div class="socialicon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="none"
                         xmlns:v="https://vecta.io/nano">
@@ -49,7 +49,7 @@ class SidebarNav extends HTMLElement {
                 </div>
             </a>
 
-            <a href="#">
+            <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="socialicon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
                         fill="none" xmlns:v="https://vecta.io/nano">
                         <path class="socialicon"
@@ -59,7 +59,7 @@ class SidebarNav extends HTMLElement {
             </a>
 
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/josh-carter-7668577a" target="_blank" rel="noopener noreferrer">
                 <div class="socialicon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
                         fill="none" xmlns:v="https://vecta.io/nano">
                         <path class="socialicon" fill-rule="evenodd"

@@ -1,6 +1,8 @@
 :root {
+    /* Basic color scheme */
     --bgprimary-color: #fff;
     --bgsecondary-color: #f7f8ff;
+    --bgbanner-color: #EEF5FF;
     --bgradientradial: #DFE8FF;
     --text-color: #19191a;
     --text-color2: #222;
@@ -18,4 +20,7 @@
     --logoPrimaryColor: #ff2424;
     --logoSecondaryColor: #1e00ff;
     --ScrollThumb: #cbcbcb;
+    /* Basic color scheme */
+
+
 }
