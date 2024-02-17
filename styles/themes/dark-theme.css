@@ -10,7 +10,7 @@
     --NavHover: #4e4e4e;
     --Disabled: #949494;
     --PrimaryColor: #EBFF00;
-    --ActiveColor: #000000;
+    --ActiveColor: #111111;
     --SocialFooterBg: #272727;
     --SocialIcon: #fff260;
     --SocialHoverIcon: #565550;
@@ -19,5 +19,10 @@
     --logoPrimaryColor: #24fffb;
     --logoSecondaryColor: #ffea00;
     --ScrollThumb: #404040;
+    /* Basic color scheme */
+
+    --HeaderDisplay: "Playfair Display", sans-serif;
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light&display=swap')

@@ -29,6 +29,7 @@
 
 .heroDisplaytext {
     color: var(--PrimaryColor);
+    font-family: var(--HeaderDisplay);
     font-size: 3.5vw;
     font-weight: 200;
 }
@@ -141,7 +142,7 @@
     }
 
     .snazzybox {
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: center;
     }

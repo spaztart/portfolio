@@ -1,55 +1,36 @@
 .btn {
-    position: relative;
     display: inline-block;
-    width: auto;
-    height: 44px;
+    padding: 12px 20px;
+    border: 2px solid var(--PrimaryColor);
+    /* Green border color */
+    color: var(--PrimaryColor);
+    /* Green text color */
     text-align: center;
-    line-height: 44px;
-    color: #fff;
-    font-size: 16px;
-    padding: 0 16px 0 16px;
     text-decoration: none;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-
     border-radius: 8px;
-    z-index: 1;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: var(--PrimaryColor);
+    /* Green background color */
+    color: var(--bgprimary-color);
+    /* White text color */
 }
 
 .btn:hover {
-    animation: animate 4s linear infinite;
+    background-color: var(--PrimaryColor);
+    /* Green background color */
+    color: var(--bgprimary-color);
+    /* White text color */
 }
 
-@keyframes animate {
-    0% {
-        background-position: 0%;
-    }
-
-    100% {
-        background-position: 400%;
-    }
-}
-
-.btn:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    bottom: -5px;
-    left: -5px;
-    z-index: -1;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    background-clip: border-box;
-    border-radius: 40px;
-    opacity: 0;
-    transition: .5s;
-}
-
-.btn:hover:before {
-    filter: blur(10px);
-    opacity: 1;
-    animation: animate 4s linear infinite;
+.btn:active {
+    background-color: var(--ActiveColor);
+    /* Green background color */
+    color: var(--bgprimary-color);
+    /* White text color */
 }

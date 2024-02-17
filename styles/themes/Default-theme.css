@@ -22,5 +22,7 @@
     --ScrollThumb: #cbcbcb;
     /* Basic color scheme */
 
-
+    --HeaderDisplay: "Libre Franklin", sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light&display=swap')
