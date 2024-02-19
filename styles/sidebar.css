@@ -48,7 +48,7 @@
 .nav li strong {
     margin-bottom: 4px;
     display: block;
-    color: var(--text-color2);
+    color: var(--NavCategory);
 
 }
 

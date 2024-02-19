@@ -7,6 +7,7 @@
     --text-color: #19191a;
     --text-color2: #222;
     --border-color: #D9D9D9;
+    --NavCategory: #7e7988;
     --NavItem: #504b59;
     --NavHover: #efecff;
     --Disabled: #949494;
@@ -22,7 +23,17 @@
     --ScrollThumb: #cbcbcb;
     /* Basic color scheme */
 
+
+    /* Font styling*/
+
     --HeaderDisplay: "Libre Franklin", sans-serif;
+
+    /* Font styling*/
+
+    /* Images and visuals*/
+    --hero-homebanner: url('https://images.unsplash.com/photo-1520013817300-1f4c1cb245ef?q=80&w=3313&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+        /* Images and visuals*/
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light&display=swap')

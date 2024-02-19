@@ -2,9 +2,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(171, 216, 255);
+    background: var(--hero-homebanner);
     border-radius: 24px;
-    height: 400px;
+    height: 70vh;
+    background-size: cover;
+    /* Adjust background sizing */
+    background-position: center;
+    /* Adjust background positioning */
 }
 
 .heroContainer {

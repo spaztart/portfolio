@@ -6,7 +6,8 @@
     --text-color: #ffffff;
     --text-color2: #d9d9d9;
     --border-color: #444444;
-    --NavItem: #EFEFEF;
+    --NavCategory: #7e7988;
+    --NavItem: #d1d1d1;
     --NavHover: #4e4e4e;
     --Disabled: #949494;
     --PrimaryColor: #EBFF00;
@@ -21,7 +22,15 @@
     --ScrollThumb: #404040;
     /* Basic color scheme */
 
-    --HeaderDisplay: "Playfair Display", sans-serif;
+    /* Font styling*/
+
+    --HeaderDisplay: "Libre Franklin", sans-serif;
+
+    /* Font styling*/
+
+    /* Images and visuals*/
+    --hero-homebanner: url('https://images.unsplash.com/photo-1513436539083-9d2127e742f1?q=80&w=3526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+        /* Images and visuals*/
 
 }
 

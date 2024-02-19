@@ -4,6 +4,8 @@ class SidebarNav extends HTMLElement {
         <div class="sidebarContainer">
 
         <div class="nav">
+
+
             <ul>
                 <li><strong>About</strong></li>
                 <li><a href="about.html">Who Am I?</a></li>
