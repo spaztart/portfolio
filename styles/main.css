@@ -295,7 +295,7 @@ header {
 
 .content {
     max-width: 960px;
-    padding: 64px 48px 64px 48px;
+    padding: 48px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -418,6 +418,10 @@ header {
 
     .topContents {
         justify-content: flex-start;
+    }
+
+    .content {
+        padding: 48px 0 0 0;
     }
 
 }

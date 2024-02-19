@@ -58,19 +58,38 @@
     color: var(--NavItem);
     border-radius: 4px;
     display: block;
-    animation: slide-back 0.1s reverse;
+    animation: fade-in-reverse 0.15s reverse;
 
 }
 
 
-
-.nav li a:hover {
-    animation: bgNavItem 0.2s ease;
+.nav li a:not(:active):not(:focus):hover {
     /* Disable the previous animation on hover */
     background-color: var(--NavHover);
-    animation: slide-right 0.1s both;
+    animation: fade-in-bg 0.15s ease;
 }
 
+
+@keyframes fade-in-bg {
+    0% {
+        background-color: var(--bgprimary-color);
+    }
+
+    100% {
+        background-color: var(--NavHover);
+    }
+}
+
+@keyframes fade-in-reverse {
+
+    0% {
+        background-color: var(--bgprimary-color);
+    }
+
+    100% {
+        background-color: var(--NavHover);
+    }
+}
 
 
 
@@ -78,6 +97,7 @@
     background-color: var(--SecondaryActiveColor);
     color: var(--ActiveColor);
     font-weight: bold;
+    animation: none;
 }
 
 .nav li a:focus {
