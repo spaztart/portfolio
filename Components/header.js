@@ -8,15 +8,15 @@ class HeaderNav extends HTMLElement {
         </div>
 
         <div class="dropdown">
-            <button class="dropdown-btn" id="selectTheme">
-                Light
-            </button>
-            <div class="dropdown-content">
-            <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/Default-theme.css', 'Default Theme')">Default Theme</a>
-            <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/dark-theme.css', 'Dark Theme')">Dark Theme</a>
-                <!-- Add more themes as needed -->
-            </div>
+        <button class="dropdown-btn" id="selectTheme">
+            Select mode
+        </button>
+        <div class="dropdown-content">
+        <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/Default-theme.css', 'Default Theme')">Default Theme</a>
+        <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/dark-theme.css', 'Dark Theme')">Dark Theme</a>
+            <!-- Add more themes as needed -->
         </div>
+    </div>
     </header>
         `;
 

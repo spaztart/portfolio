@@ -2,11 +2,12 @@ class SidebarNav extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <div class="sidebarContainer">
+
         <div class="nav">
             <ul>
                 <li><strong>About</strong></li>
                 <li><a href="about.html">Who Am I?</a></li>
-                <li><a href="#">Resume/CV</a></li>
+                <li><a href="template.html">Resume/CV</a></li>
             </ul>
 
             <ul>

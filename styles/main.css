@@ -6,6 +6,7 @@ body {
     scrollbar-width: thin;
     /* "auto" or "thin" */
     scrollbar-color: var(--ScrollThumb);
+    transition: background-color 0.25s ease, color 0.25s ease;
     /* scroll thumb and track */
 
 
@@ -70,14 +71,11 @@ p {
 
 /* Header */
 header {
-    background-color: var(--bgprimary-color);
     color: var(--text-color);
     text-align: center;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid var(--border-color);
     border-right: 3px solid var(--border-color);
-    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.04);
     top: 0;
     padding-right: 4px;
     z-index: 1000;
@@ -220,30 +218,19 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
+
 
 /* Banner template */
 .topSection {
     width: 100%;
     display: flex;
     justify-content: center;
-
     border-bottom: 1px solid var(--border-color);
     background: radial-gradient(52.98% 52.98% at 50% 14.9%, var(--bgradientradial) 0%, var(--bgradientradial) 0.01%, var(--bgprimary-color) 80.21%);
-}
-
-.backgroundSection {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://images.unsplash.com/photo-1707343848610-16f9afe1ae23?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 360px;
     background-size: cover;
-    /* Adjust background sizing */
     background-position: center;
-    /* Adjust background positioning */
 }
 
 
@@ -289,12 +276,12 @@ header {
 
 /* Content */
 .contentContainer {
-    margin-top: 72px;
     margin-left: 288px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 24px;
 }
 
 .content {
@@ -360,11 +347,13 @@ header {
 
     .contentContainer {
         margin-left: 0px;
+        padding: 72px 24px 24px 24px;
     }
 
     header {
         border: 0px solid #fff;
         box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.0);
+        background-color: var(--bgprimary-color);
 
     }
 }
@@ -375,7 +364,6 @@ header {
         display: none;
     }
 }
-
 
 
 
@@ -421,11 +409,6 @@ header {
 
     .topContents {
         justify-content: flex-start;
-    }
-
-    .contentContainer {
-        margin-top: 0px;
-
     }
 
 }

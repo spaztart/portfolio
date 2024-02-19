@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Retrieve the selected theme from localStorage and apply it
     const selectedTheme = localStorage.getItem('selectedTheme');
     if (selectedTheme) {
-        document.getElementById('theme-stylesheet').setAttribute('href', selectedTheme);
-        document.getElementById('selectTheme').textContent = getThemeNameFromPath(selectedTheme);
+        applyTheme(selectedTheme);
     }
 });
 
@@ -25,11 +24,14 @@ function selectTheme(themePath, themeName) {
     document.getElementById('selectTheme').textContent = themeName;
     document.querySelector('.dropdown-content').style.display = 'none';
 
-    document.getElementById('theme-stylesheet').setAttribute('href', themePath);
+    // Apply the theme immediately
+    applyTheme(themePath);
 
+    // Store the selected theme in localStorage
     localStorage.setItem('selectedTheme', themePath);
 }
 
-function getThemeNameFromPath(themePath) {
-    return 'Select theme 🎨';
+function applyTheme(themePath) {
+    const themeStylesheet = document.getElementById('theme-stylesheet');
+    themeStylesheet.setAttribute('href', themePath);
 }

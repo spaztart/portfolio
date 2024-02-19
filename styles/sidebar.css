@@ -3,7 +3,6 @@
     display: block;
     position: fixed;
     background-color: var(--bgprimary-color);
-    border-right: 1px solid var(--border-color);
     overflow-x: hidden;
     height: 100%;
 
@@ -63,15 +62,7 @@
 
 }
 
-@keyframes slide-back {
-    0% {
-        transform: translateX(0);
-    }
 
-    100% {
-        transform: translateX(5px);
-    }
-}
 
 .nav li a:hover {
     animation: bgNavItem 0.2s ease;
@@ -80,15 +71,6 @@
     animation: slide-right 0.1s both;
 }
 
-@keyframes slide-right {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(5px);
-    }
-}
 
 
 
@@ -98,9 +80,14 @@
     font-weight: bold;
 }
 
+.nav li a:focus {
+    background-color: var(--SecondaryActiveColor);
+    color: var(--ActiveColor);
+    font-weight: bold;
+}
+
 
 .socialfooter {
-    background-color: var(--SocialFooterBg);
     display: flex;
     height: 72px;
     justify-content: space-around;
