@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background: var(--hero-homebanner);
+    background-image: var(--hero-homebanner);
     border-radius: 24px;
     height: 70vh;
     background-size: cover;
@@ -64,11 +64,13 @@
 .promobanner {
     border-radius: 1.5rem;
     background: var(--SocialFooterBg);
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
+    height: 140px;
 }
 
 .promotext {
@@ -77,8 +79,14 @@
     align-items: flex-start;
 }
 
-.promobanner img {
-    width: 280px;
+.promoimage {
+    width: 210px;
+    background: var(--promo-image-intro);
+    height: 245px;
+    background-position: center;
+    background-size: cover;
+    right: 7rem;
+
 }
 
 .stackcontainer ul {
@@ -168,7 +176,13 @@
     .promobanner {
         flex-direction: column-reverse;
         gap: 1rem;
+        height: auto;
 
+    }
+
+    .promoimage {
+        width: 160px;
+        height: 200px;
     }
 
     .promotext {
@@ -178,8 +192,12 @@
         width: 100%;
     }
 
-    .promobanner img {
-        width: 200px;
+    .promotext h3 {
+        text-align: center;
+    }
+
+    .promotext p {
+        text-align: center;
     }
 
 }

@@ -24,8 +24,16 @@ function selectTheme(themePath, themeName) {
     document.getElementById('selectTheme').textContent = themeName;
     document.querySelector('.dropdown-content').style.display = 'none';
 
+    // Save current scroll position
+    const scrollPosition = window.scrollY;
+
     // Apply the theme immediately
     applyTheme(themePath);
+
+    // Use requestAnimationFrame to restore scroll position after the next repaint
+    requestAnimationFrame(() => {
+        window.scrollTo(0, scrollPosition);
+    });
 
     // Store the selected theme in localStorage
     localStorage.setItem('selectedTheme', themePath);

@@ -31,8 +31,9 @@
     /* Font styling*/
 
     /* Images and visuals*/
-    --hero-homebanner: url('https://images.unsplash.com/photo-1520013817300-1f4c1cb245ef?q=80&w=3313&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
-        /* Images and visuals*/
+    --hero-homebanner: url('https://images.unsplash.com/photo-1518529303982-333bdcaf96e2?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    --promo-image-intro: url('../assets/default-promo.png');
+    /* Images and visuals*/
 
 }
 
