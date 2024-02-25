@@ -1,16 +1,17 @@
 .btn {
     display: inline-block;
-    padding: 12px 20px;
+    padding: var(--buttonpadding);
     border: 2px solid var(--PrimaryColor);
     /* Green border color */
     color: var(--PrimaryColor);
     /* Green text color */
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
-    font-size: 18px;
+    border-radius: var(--buttonborder-radius);
+    font-size: var(--buttonfont-size);
     cursor: pointer;
     transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+    border: solid var(--button-border-size) var(--button-border-color);
 }
 
 /* Hover effect */
@@ -18,13 +19,8 @@
     background-color: var(--PrimaryColor);
     /* Green background color */
     color: var(--bgprimary-color);
-    /* White text color */
-}
 
-.btn:hover {
-    background-color: var(--PrimaryColor);
-    /* Green background color */
-    color: var(--bgprimary-color);
+
     /* White text color */
 }
 

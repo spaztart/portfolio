@@ -1,12 +1,18 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 body {
     margin: 0;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: var(--main-font);
+    letter-spacing: 0%;
     background-color: var(--bgprimary-color);
     color: var(--text-color);
     scrollbar-width: thin;
     /* "auto" or "thin" */
     scrollbar-color: var(--ScrollThumb);
-    transition: background-color 0.25s ease, color 0.25s ease;
     /* scroll thumb and track */
 
 
@@ -14,7 +20,7 @@ body {
 
 #fade-in {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #fade-in.loaded {
@@ -50,6 +56,7 @@ h3 {
 p {
     color: var(--text-color2);
     line-height: 1.5;
+    font-size: var(--p-size);
 }
 
 /* End of Text Styles */
@@ -362,7 +369,8 @@ header {
     header {
         border: 0px solid #fff;
         box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.0);
-        background-color: var(--bgprimary-color);
+        background-color: var(--bgheader);
+        backdrop-filter: blur(8px);
 
     }
 }

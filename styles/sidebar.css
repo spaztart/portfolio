@@ -6,6 +6,7 @@
     overflow-x: hidden;
     height: 100%;
 
+
 }
 
 .sidebarContainer {
@@ -49,7 +50,7 @@
     margin-bottom: 4px;
     display: block;
     color: var(--NavCategory);
-
+    font-size: var(--navcategorytextsize);
 }
 
 .nav li a {
@@ -58,7 +59,7 @@
     color: var(--NavItem);
     border-radius: 4px;
     display: block;
-
+    font-size: var(--navitem-textsize);
 
 }
 
@@ -66,7 +67,7 @@
 .nav li a:not(:active):not(:focus):hover {
     /* Disable the previous animation on hover */
     background-color: var(--NavHover);
-    animation: fade-in-bg 0.15s ease;
+    animation: fade-in-bg 0.25s ease;
 }
 
 
@@ -89,20 +90,21 @@
     100% {
         background-color: var(--NavHover);
     }
-}
 
+
+}
 
 
 .nav li a:active {
     background-color: var(--SecondaryActiveColor);
-    color: var(--ActiveColor);
+    color: var(--NavActive);
     font-weight: bold;
     animation: none;
 }
 
 .nav li a:focus {
     background-color: var(--SecondaryActiveColor);
-    color: var(--ActiveColor);
+    color: var(--NavActive);
     font-weight: bold;
 }
 
@@ -146,6 +148,7 @@
 @media screen and (max-width: 760px) {
     .sidebar {
         display: none;
+
         height: 100%;
         width: 100%;
         position: fixed;
@@ -195,5 +198,6 @@
 @media screen and (min-width: 761px) {
     .sidebar {
         display: block !important;
+
     }
 }

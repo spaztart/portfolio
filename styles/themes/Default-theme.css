@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Honk&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Loved+by+the+King&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Micro+5&family=Noto+Color+Emoji&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Input Mono:ital,opsz,wdth,wght,GRAD@0,8..144,50..150,100..900,-50..100;1,8..144,50..150,100..900,-50..100&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url("https://use.typekit.net/fdg5ypz.css");
+
 :root {
     /* Basic color scheme */
     --bgprimary-color: #fff;
+    --bgheader: #ffffffbb;
     --bgsecondary-color: #f7f8ff;
     --bgbanner-color: #EEF5FF;
     --bgradientradial: #DFE8FF;
@@ -10,10 +14,11 @@
     --NavCategory: #7e7988;
     --NavItem: #504b59;
     --NavHover: #efecff;
+    --NavActive: #212a58;
     --Disabled: #949494;
     --PrimaryColor: #0057FF;
     --ActiveColor: #212a58;
-    --SocialFooterBg: #F5F5FF;
+    --SocialFooterBg: #e3e6ff;
     --SocialIcon: #8d78ea;
     --SocialHoverIcon: #ddd7f7;
     --SecondaryActiveColor: #ded6f4;
@@ -25,16 +30,39 @@
 
 
     /* Font styling*/
+    --IntroTexHighlight: #ffffff90;
+    --header-display: "Libre Franklin", sans-serif;
+    --header-displaysize: 4.5vw;
+    --header-lineheight: 3.75vw;
 
-    --HeaderDisplay: "Libre Franklin", sans-serif;
+    --main-font: "Libre Franklin", sans-serif;
+
+    --p-font: "Libre Franklin", sans-serif;
+    --p-size: 1rem;
+
+    --navitem-weight: normal;
+    --nav-font: "Libre Franklin", sans-serif;
+    --navitem-textsize: 16px;
+
+    --navcategorytext: "Libre Franklin", sans-serif;
+    --navcategorytextsize: 16px;
+
 
     /* Font styling*/
 
     /* Images and visuals*/
     --hero-homebanner: url('https://images.unsplash.com/photo-1518529303982-333bdcaf96e2?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     --promo-image-intro: url('../assets/default-promo.png');
+
     /* Images and visuals*/
 
-}
+    /* Button sizing*/
+    --buttonpadding: 12px 20px;
+    --buttonborder-radius: 8px;
+    --buttonfont-size: 18px;
+    --button-border-size: 2px;
+    --button-border-color: #0057Ff;
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light&display=swap')
+
+
+}
