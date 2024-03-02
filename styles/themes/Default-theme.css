@@ -51,8 +51,9 @@
     /* Font styling*/
 
     /* Images and visuals*/
-    --hero-homebanner: url('https://images.unsplash.com/photo-1518529303982-333bdcaf96e2?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    --hero-homebanner: url('../assets/isometric1.png');
     --promo-image-intro: url('../assets/default-promo.png');
+    --videohero: url('src="assets/boat.mp4"');
 
     /* Images and visuals*/
 
@@ -62,7 +63,6 @@
     --buttonfont-size: 18px;
     --button-border-size: 2px;
     --button-border-color: #0057Ff;
-
 
 
 }

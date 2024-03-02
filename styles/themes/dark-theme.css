@@ -47,7 +47,7 @@
 
     /* Images and visuals*/
     --hero-homebanner: url('https://images.unsplash.com/photo-1513436539083-9d2127e742f1?q=80&w=3526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    --promo-image-intro: url('../assets/dark-promo.png');
+    --promo-image-intro: url('../assets/bellonly.svg');
 
     /* Button sizing*/
     --buttonpadding: 8px 12px;

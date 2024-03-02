@@ -18,6 +18,14 @@ body {
 
 }
 
+video {
+    width: 100%;
+    /* Adjust width as needed */
+    height: auto;
+    /* Adjust height as needed */
+}
+
+
 #fade-in {
     opacity: 0;
     transition: opacity .5s ease-in-out;
