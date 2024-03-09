@@ -14,6 +14,8 @@ class HeaderNav extends HTMLElement {
         <div class="dropdown-content">
         <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/Default-theme.css', 'Default Theme')">Default Theme</a>
         <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/dark-theme.css', 'Dark Theme')">Dark Theme</a>
+        <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/elegantbw.css', 'Elegant Noir')">Elegant Noir</a>
+        <a href="#" class="dropdown-item" onclick="selectTheme('styles/themes/green.css', 'Matrix')">Matrix</a>
             <!-- Add more themes as needed -->
         </div>
     </div>

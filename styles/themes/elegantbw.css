@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bayon&family=Bebas+Neue&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Silkscreen:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /* Bayon */
 /* Bebas Neue */
 /* Roboto */
@@ -18,55 +18,55 @@
     --bgprimary-color: #fff;
     --bgheader: #ffffffd7;
     --bgsecondary-color: #f7f8ff;
-    --bgbanner-color: #EEF5FF;
+    --bgbanner-color: #000000;
     --bgradientradial: #DFE8FF;
     --text-color: #19191a;
     --text-color2: #222;
     --border-color: #D9D9D9;
-    --NavCategory: #7e7988;
-    --NavItem: #504b59;
-    --NavHover: #efecff;
-    --NavActive: #212a58;
+    --NavCategory: #000000;
+    --NavItem: #000000;
+    --NavHover: #e8e8e8;
+    --NavActive: #000000;
     --Disabled: #949494;
-    --PrimaryColor: #0057FF;
-    --ActiveColor: #212a58;
-    --SocialFooterBg: #e3e6ff;
+    --PrimaryColor: #000000;
+    --ActiveColor: #000000;
+    --SocialFooterBg: #ffffff;
     --SocialFooterBorder: #000;
-    --SocialFooterBorderSize: 0px;
-    --SocialIcon: #8d78ea;
-    --SocialHoverIcon: #ddd7f7;
-    --SecondaryActiveColor: #ded6f4;
+    --SocialFooterBorderSize: 2px;
+    --SocialIcon: #000000;
+    --SocialHoverIcon: #ebebeb;
+    --SecondaryActiveColor: #efefef;
     --DisabledSecondary: #D9D9D9;
-    --logoPrimaryColor: #ff2424;
-    --logoSecondaryColor: #1e00ff;
+    --logoPrimaryColor: #000000;
+    --logoSecondaryColor: #000000;
     --ScrollThumb: #cbcbcb;
     /* Basic color scheme */
 
 
     /* Font styling*/
     --IntroTexHighlight: #ffffff90;
-    --header-display: "Roboto", sans-serif;
+    --header-display: "Playfair Display", serif;
     --header-displaysize: 4.5vw;
     --header-lineheight: 3.75vw;
 
-    --main-font: "Roboto", sans-serif;
+    --main-font: "Roboto Serif", Serif;
 
-    --p-font: "Roboto", sans-serif;
-    --p-size: 1rem;
+    --p-font: "Roboto Serif", Serif;
+    --p-size: 0.9rem;
 
     --navitem-weight: normal;
-    --nav-font: "Roboto", sans-serif;
-    --navitem-textsize: 16px;
+    --nav-font: "Roboto Serif", Serif;
+    --navitem-textsize: 14px;
 
-    --navcategorytext: "Roboto", sans-serif;
-    --navcategorytextsize: 16px;
+    --navcategorytext: "Roboto Serif", Serif;
+    --navcategorytextsize: 12px;
 
 
     /* Font styling*/
 
     /* Images and visuals*/
-    --hero-backgroundcolor: #d4f0ff;
-    --hero-homebanner: url('../assets/ripple-animate.svg');
+    --hero-backgroundcolor: #ebebeb;
+    --hero-homebanner: url('..');
     --promo-image-intro: url('../assets/default-promo.png');
     --videohero: url('src="assets/boat.mp4"');
 
@@ -77,7 +77,7 @@
     --buttonborder-radius: 8px;
     --buttonfont-size: 18px;
     --button-border-size: 2px;
-    --button-border-color: #0057Ff;
+    --button-border-color: #000000;
 
 
 }

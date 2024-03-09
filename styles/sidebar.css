@@ -44,6 +44,7 @@
     align-self: stretch;
     display: block;
 
+
 }
 
 .nav li strong {
@@ -51,6 +52,7 @@
     display: block;
     color: var(--NavCategory);
     font-size: var(--navcategorytextsize);
+    font-family: var(--navcategorytext);
 }
 
 .nav li a {
@@ -59,6 +61,7 @@
     color: var(--NavItem);
     border-radius: 4px;
     display: block;
+    font-family: var(--nav-font);
     font-size: var(--navitem-textsize);
 
 }

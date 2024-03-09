@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Honk&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Loved+by+the+King&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Micro+5&family=Noto+Color+Emoji&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Input Mono:ital,opsz,wdth,wght,GRAD@0,8..144,50..150,100..900,-50..100;1,8..144,50..150,100..900,-50..100&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
-@import url("https://use.typekit.net/fdg5ypz.css");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bayon&family=Bebas+Neue&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Silkscreen:wght@400;700&display=swap');
+
+/* Bayon */
+/* Bebas Neue */
+/* Roboto */
+/* Robot Mono */
+/* Roboto Serif*/
+/* Pixelify Sans */
+/* Shantell Sans */
+/* Playfair Display */
+/* Amatic SC */
+/* Press Start 2P */
+/* Silkscreen */
 
 :root {
     --bgprimary-color: #141414;
-    --bgheader: #141414bf;
+    --bgheader: #141414cd;
     --bgsecondary-color: #222222;
     --bgbanner-color: #27292a;
     --bgradientradial: #2d1f17;
@@ -18,6 +29,8 @@
     --PrimaryColor: #EBFF00;
     --ActiveColor: #fff700;
     --SocialFooterBg: #272727;
+    --SocialFooterBorder: #000;
+    --SocialFooterBorderSize: 0px;
     --SocialIcon: #fff260;
     --SocialHoverIcon: #2f2d2d;
     --SecondaryActiveColor: #eeff00;
@@ -29,24 +42,27 @@
 
     /* Font styling*/
     --IntroTexHighlight: #000000;
-    --header-display: "Input Mono";
+    --header-display: "Roboto Mono";
     --header-displaysize: 3.5vw;
     --header-lineheight: 3vw;
-    --main-font: "Input Mono";
-    --p-font: "Input Mono";
+
+    --main-font: "Roboto Mono";
+
+    --p-font: "Roboto Mono";
     --p-size: 0.9rem;
 
     --navitem-weight: normal;
-    --nav-font: "Input Mono";
+    --nav-font: "Roboto Mono";
     --navitem-textsize: 14px;
 
-    --navcategorytext: "Input Mono";
+    --navcategorytext: "Roboto Mono";
     --navcategorytextsize: 13px;
 
     /* Font styling*/
 
     /* Images and visuals*/
-    --hero-homebanner: url('https://images.unsplash.com/photo-1513436539083-9d2127e742f1?q=80&w=3526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    --hero-backgroundcolor: #212121;
+    --hero-homebanner: url('../assets/retro-field.svg');
     --promo-image-intro: url('../assets/bellonly.svg');
 
     /* Button sizing*/

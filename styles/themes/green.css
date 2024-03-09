@@ -15,58 +15,58 @@
 
 :root {
     /* Basic color scheme */
-    --bgprimary-color: #fff;
-    --bgheader: #ffffffd7;
+    --bgprimary-color: #000000;
+    --bgheader: #000000d7;
     --bgsecondary-color: #f7f8ff;
     --bgbanner-color: #EEF5FF;
     --bgradientradial: #DFE8FF;
-    --text-color: #19191a;
-    --text-color2: #222;
-    --border-color: #D9D9D9;
+    --text-color: #11ff00;
+    --text-color2: #00ff51;
+    --border-color: #00ff73;
     --NavCategory: #7e7988;
-    --NavItem: #504b59;
-    --NavHover: #efecff;
-    --NavActive: #212a58;
-    --Disabled: #949494;
-    --PrimaryColor: #0057FF;
-    --ActiveColor: #212a58;
-    --SocialFooterBg: #e3e6ff;
+    --NavItem: #00ff51;
+    --NavHover: #000000;
+    --NavActive: #00ff37;
+    --Disabled: #4d4d4d;
+    --PrimaryColor: #00ff51;
+    --ActiveColor: #000000;
+    --SocialFooterBg: #000000;
     --SocialFooterBorder: #000;
-    --SocialFooterBorderSize: 0px;
-    --SocialIcon: #8d78ea;
-    --SocialHoverIcon: #ddd7f7;
-    --SecondaryActiveColor: #ded6f4;
+    --SocialFooterBorderSize: 2px;
+    --SocialIcon: #00ff51;
+    --SocialHoverIcon: #ffffff;
+    --SecondaryActiveColor: #2f2f2f;
     --DisabledSecondary: #D9D9D9;
-    --logoPrimaryColor: #ff2424;
-    --logoSecondaryColor: #1e00ff;
-    --ScrollThumb: #cbcbcb;
+    --logoPrimaryColor: #00ff51;
+    --logoSecondaryColor: #00ff51;
+    --ScrollThumb: #2bb900;
     /* Basic color scheme */
 
 
     /* Font styling*/
     --IntroTexHighlight: #ffffff90;
-    --header-display: "Roboto", sans-serif;
-    --header-displaysize: 4.5vw;
-    --header-lineheight: 3.75vw;
+    --header-display: "Silkscreen";
+    --header-displaysize: 3vw;
+    --header-lineheight: 3.5vw;
 
-    --main-font: "Roboto", sans-serif;
+    --main-font: "Silkscreen";
 
-    --p-font: "Roboto", sans-serif;
+    --p-font: "Silkscreen";
     --p-size: 1rem;
 
     --navitem-weight: normal;
-    --nav-font: "Roboto", sans-serif;
+    --nav-font: "Silkscreen";
     --navitem-textsize: 16px;
 
-    --navcategorytext: "Roboto", sans-serif;
+    --navcategorytext: "Silkscreen";
     --navcategorytextsize: 16px;
 
 
     /* Font styling*/
 
     /* Images and visuals*/
-    --hero-backgroundcolor: #d4f0ff;
-    --hero-homebanner: url('../assets/ripple-animate.svg');
+    --hero-backgroundcolor: #000000;
+    --hero-homebanner: url('../assets/matrix-animate.svg');
     --promo-image-intro: url('../assets/default-promo.png');
     --videohero: url('src="assets/boat.mp4"');
 
@@ -74,10 +74,10 @@
 
     /* Button sizing*/
     --buttonpadding: 12px 20px;
-    --buttonborder-radius: 8px;
+    --buttonborder-radius: 0px;
     --buttonfont-size: 18px;
-    --button-border-size: 2px;
-    --button-border-color: #0057Ff;
+    --button-border-size: 4px;
+    --button-border-color: #ffffff;
 
 
 }

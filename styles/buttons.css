@@ -10,6 +10,7 @@
     border-radius: var(--buttonborder-radius);
     font-size: var(--buttonfont-size);
     cursor: pointer;
+    font-family: var(--main-font);
     transition: background-color 0.15s, color 0.15s, border-color 0.15s;
     border: solid var(--button-border-size) var(--button-border-color);
 }
