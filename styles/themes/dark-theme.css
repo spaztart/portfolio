@@ -62,6 +62,9 @@
 
     /* Images and visuals*/
     --hero-backgroundcolor: #212121;
+    --hero-bordercolor: #000;
+    --herobordersize: 0%;
+    --herocornerradius: 24px;
     --hero-homebanner: url('../assets/retro-field.svg');
     --promo-image-intro: url('../assets/bellonly.svg');
 

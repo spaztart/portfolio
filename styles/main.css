@@ -227,6 +227,7 @@ header {
     color: var(--text-color);
     text-decoration: none;
     text-align: left;
+    font-family: var(--main-font)
 }
 
 /* Hover effect for dropdown items */

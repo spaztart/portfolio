@@ -65,7 +65,10 @@
     /* Font styling*/
 
     /* Images and visuals*/
-    --hero-backgroundcolor: #ebebeb;
+    --hero-backgroundcolor: #ebebeb00;
+    --hero-bordercolor: #000;
+    --herobordersize: 3px;
+    --herocornerradius: 0px;
     --hero-homebanner: url('..');
     --promo-image-intro: url('../assets/default-promo.png');
     --videohero: url('src="assets/boat.mp4"');

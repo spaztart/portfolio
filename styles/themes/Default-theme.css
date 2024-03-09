@@ -66,6 +66,9 @@
 
     /* Images and visuals*/
     --hero-backgroundcolor: #d4f0ff;
+    --hero-bordercolor: #000;
+    --herobordersize: 0px;
+    --herocornerradius: 24px;
     --hero-homebanner: url('../assets/ripple-animate.svg');
     --promo-image-intro: url('../assets/default-promo.png');
     --videohero: url('src="assets/boat.mp4"');

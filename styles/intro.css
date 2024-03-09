@@ -3,12 +3,12 @@
     display: flex;
     justify-content: flex-start;
     background-image: var(--hero-homebanner);
-    border-radius: 24px;
+    border-radius: var(--herocornerradius);
     background-color: var(--hero-backgroundcolor);
     height: 60vh;
-    clip-path: content-box;
     flex-wrap: wrap;
     align-content: center;
+    border: solid var(--hero-bordercolor) var(--herobordersize);
 }
 
 .heroContainer {
